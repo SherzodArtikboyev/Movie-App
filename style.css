@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+}
+header .p{
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0040ff;
+    margin-left: 15px;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 5%;
+}
+.content input{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    border: 2px solid #9a9a9a;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px 25px;
+}
+.content button{
+    position: relative;
+    width: 12%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #0040ff;
+}
+#movies{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-top: 5%;
+    width: 1200px;
+    margin: 5% auto;
+}
+
+#movies h1 {
+    width: 220px;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+#movies p {
+    width: 220px;
+    font-size: 20px;
+    margin-bottom: 20%;
+    font-family: sans-serif;
+}
